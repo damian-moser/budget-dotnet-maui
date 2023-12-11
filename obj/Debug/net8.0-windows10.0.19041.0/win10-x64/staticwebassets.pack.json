@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\budget.styles.css",
+      "PackagePath": "staticwebassets\\budget.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\Images\\account_fill_0.svg",
+      "PackagePath": "staticwebassets\\Images\\account_fill_0.svg"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\Images\\account_fill_1.svg",
+      "PackagePath": "staticwebassets\\Images\\account_fill_1.svg"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\Images\\cards_fill_0.svg",
+      "PackagePath": "staticwebassets\\Images\\cards_fill_0.svg"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\Images\\cards_fill_1.svg",
+      "PackagePath": "staticwebassets\\Images\\cards_fill_1.svg"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\Images\\home_fill_0.svg",
+      "PackagePath": "staticwebassets\\Images\\home_fill_0.svg"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\Images\\home_fill_1.svg",
+      "PackagePath": "staticwebassets\\Images\\home_fill_1.svg"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\Images\\timeline_fill_0.svg",
+      "PackagePath": "staticwebassets\\Images\\timeline_fill_0.svg"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\Images\\timeline_fill_1.svg",
+      "PackagePath": "staticwebassets\\Images\\timeline_fill_1.svg"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\css\\font\\Inter-Bold.ttf",
+      "PackagePath": "staticwebassets\\css\\font\\Inter-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\css\\font\\Inter-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\css\\font\\Inter-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\css\\font\\Inter-Regular.ttf",
+      "PackagePath": "staticwebassets\\css\\font\\Inter-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\css\\styles.root.css",
+      "PackagePath": "staticwebassets\\css\\styles.root.css"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\damia\\Desktop\\budget\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.budget.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.budget.props",
+      "PackagePath": "build\\budget.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.budget.props",
+      "PackagePath": "buildMultiTargeting\\budget.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.budget.props",
+      "PackagePath": "buildTransitive\\budget.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

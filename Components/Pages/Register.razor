@@ -1,0 +1,43 @@
+@page "/register"
+@using budget.Components.Layout
+@layout EmptyLayout
+
+<section class="cred-content">
+	<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="48.57 48.57 414.53 414.53">
+		<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#f0f0f0" stroke="none">
+			<path d="M2425 4629 c-939 -55 -1739 -768 -1906 -1697 -151 -840 220 -1675      948 -2134 327 -206 691 -309 1093 -309 563 0 1068 209 1465 606 397 397 606      902 606 1465 0 564 -208 1068 -607 1467 -297 297 -682 500 -1087 573 -101 18      -153 23 -337 34 -30 1 -109 -1 -175 -5z m1085 -986 c230 -47 396 -193 444      -388 21 -86 36 -279 36 -459 l0 -156 -304 0 -304 0 -4 283 c-2 206 -6 288 -16      305 -16 28 -61 29 -93 3 l-24 -19 -3 -649 c-2 -356 0 -663 3 -681 11 -61 89      -80 117 -28 8 14 14 102 16 259 l4 237 304 0 304 0 0 -104 c0 -140 -18 -349      -35 -418 -32 -120 -82 -198 -175 -272 -130 -102 -277 -148 -475 -147 -293 0      -517 111 -599 296 -67 149 -79 317 -73 960 5 543 7 563 64 683 43 90 153 194      255 242 46 21 106 44 133 50 131 31 286 32 425 3z m-1420 -19 c235 -53 372      -183 421 -399 30 -131 42 -434 36 -895 -7 -455 -13 -513 -65 -617 -83 -163      -228 -264 -442 -308 -67 -14 -111 -16 -210 -11 -208 10 -347 60 -463 167 -141      128 -177 263 -177 657 l0 192 298 0 299 0 6 -269 c6 -306 10 -324 68 -329 26      -2 40 3 55 19 18 20 19 41 19 688 0 732 2 711 -58 711 -63 0 -68 -11 -79 -171      -5 -79 -8 -192 -6 -252 l3 -107 -304 0 -304 0 6 208 c8 301 39 423 131 522      105 115 247 187 411 210 84 12 269 4 355 -16z" />
+		</g>
+	</svg>
+	<h2>Registrierung</h2>
+	<form>
+		<div>
+			<input 
+				id="email" 
+				placeholder="E-Mail" 
+				type="email" 
+				spellcheck="false" 
+				autocomplete="off" 
+				autofocus 
+				required 
+			/>
+			<input 
+				id="password" 
+				placeholder="Passwort" 
+				type="password" 
+				spellcheck="false" 
+				autocomplete="off"
+				required 
+			/>
+			<input 
+				id="password_repeat"
+				placeholder="Passwort wiederholen"
+				type="password"
+				spellcheck="false"
+				autocomplete="off"
+				required 
+			/>
+		</div>
+		<button type="submit" class="button">Weiter</button>
+	</form>
+	<p>Bereits registriert? <a href="/login">Einloggen</a></p>
+</section>

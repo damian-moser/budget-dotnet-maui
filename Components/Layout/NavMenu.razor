@@ -1,0 +1,41 @@
+﻿<nav>
+	<a id="home" href="/" class="mobile-nav-item active-mobile-item" title="Home" draggable="false" data-link-name="home">
+		<img src="Images/home_fill_0.svg" />
+	</a>
+	<a id="timeline" href="history" class="mobile-nav-item" title="Verlauf" draggable="false" data-link-name="timeline">
+		<img src="Images/timeline_fill_0.svg" />
+	</a>
+	<a id="cards" href="cards" class="mobile-nav-item" title="Karten" draggable="false" data-link-name="cards">
+		<img src="Images/cards_fill_0.svg" />
+	</a>
+	<a id="account" href="profile" class="mobile-nav-item" title="Profil" draggable="false" data-link-name="account">
+		<img src="Images/account_fill_0.svg" />
+	</a>
+</nav>
+
+<script>
+	function fillNavLink(item) {
+		item.querySelector("img").src = "Images/" + item.id + "_fill_1.svg";
+	}
+
+	function clearNavLink(item) {
+		item.querySelector("img").src = "Images/" + item.id + "_fill_0.svg";
+	}
+
+	function clearAllNavLink() {
+		document.querySelectorAll(".mobile-nav-item").forEach(item => clearNavLink(item));
+	}
+
+	const currentPageId = localStorage.getItem("current_page");
+	if (currentPageId) {
+		fillNavLink(document.getElementById(currentPageId));
+	}
+	
+	document.querySelectorAll(".mobile-nav-item").forEach(item => {
+		item.addEventListener("click", () => {
+			localStorage.setItem("current_page", item.id);
+			clearAllNavLink();
+			fillNavLink(item);
+		});
+	});
+</script>
