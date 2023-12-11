@@ -18,12 +18,8 @@
 		item.querySelector("img").src = "Images/" + item.id + "_fill_1.svg";
 	}
 
-	function clearNavLink(item) {
-		item.querySelector("img").src = "Images/" + item.id + "_fill_0.svg";
-	}
-
 	function clearAllNavLink() {
-		document.querySelectorAll(".mobile-nav-item").forEach(item => clearNavLink(item));
+		document.querySelectorAll(".mobile-nav-item").forEach(item => item.querySelector("img").src = "Images/" + item.id + "_fill_0.svg");
 	}
 
 	const currentPageId = localStorage.getItem("current_page");

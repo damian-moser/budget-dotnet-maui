@@ -12,43 +12,42 @@
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
-    <PackageRegistrationPath>
-    </PackageRegistrationPath>
+    <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath>
-    </WindowsSdkPath>
+    <WindowsSdkPath></WindowsSdkPath>
     <LayoutDir>C:\Users\damia\Desktop\budget\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>9BD5F4BAC283AB31E88204952B50EF6656156A7709ECA9A96DA6671962CA1C1B</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>6E3CCD04F1A2337C8DA33005BF73BCE530BA240023D1EB1CEF90C5A1759AB0E2</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.budget_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.budget_9zz4h110yvjzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>com.companyname.budget</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=User Name</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\damia\Desktop\budget\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-11T20:00:00.257</Modified>
+      <Modified>2023-12-11T20:17:57.963</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-11T10:12:23.746</Modified>
+      <Modified>2023-12-11T20:11:58.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\budget.runtimeconfig.json">
       <PackagePath>budget.runtimeconfig.json</PackagePath>
-      <Modified>2023-12-10T16:55:46.468</Modified>
+      <Modified>2023-12-11T20:11:58.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\budget.dll">
       <PackagePath>budget.dll</PackagePath>
-      <Modified>2023-12-11T19:59:44.578</Modified>
+      <Modified>2023-12-11T20:17:08.716</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>budget.exe</PackagePath>
-      <Modified>2023-12-11T19:59:44.581</Modified>
+      <Modified>2023-12-11T20:17:08.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -80,7 +79,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\wwwroot\css\styles.root.css">
       <PackagePath>wwwroot\css\styles.root.css</PackagePath>
-      <Modified>2023-12-11T19:59:59.395</Modified>
+      <Modified>2023-12-11T20:17:50.845</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
@@ -124,23 +123,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.650</Modified>
+      <Modified>2023-12-11T20:11:56.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.670</Modified>
+      <Modified>2023-12-11T20:11:56.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.696</Modified>
+      <Modified>2023-12-11T20:11:56.611</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.732</Modified>
+      <Modified>2023-12-11T20:11:56.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.859</Modified>
+      <Modified>2023-12-11T20:11:56.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -148,555 +147,555 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account_fill_0.scale-100.png">
       <PackagePath>account_fill_0.scale-100.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.203</Modified>
+      <Modified>2023-12-11T20:11:56.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account_fill_0.scale-125.png">
       <PackagePath>account_fill_0.scale-125.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.209</Modified>
+      <Modified>2023-12-11T20:11:56.745</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account_fill_0.scale-150.png">
       <PackagePath>account_fill_0.scale-150.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.212</Modified>
+      <Modified>2023-12-11T20:11:56.747</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account_fill_0.scale-200.png">
       <PackagePath>account_fill_0.scale-200.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.220</Modified>
+      <Modified>2023-12-11T20:11:56.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account_fill_0.scale-400.png">
       <PackagePath>account_fill_0.scale-400.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.222</Modified>
+      <Modified>2023-12-11T20:11:56.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account_fill_1.scale-100.png">
       <PackagePath>account_fill_1.scale-100.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.208</Modified>
+      <Modified>2023-12-11T20:11:56.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account_fill_1.scale-125.png">
       <PackagePath>account_fill_1.scale-125.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.210</Modified>
+      <Modified>2023-12-11T20:11:56.745</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account_fill_1.scale-150.png">
       <PackagePath>account_fill_1.scale-150.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.219</Modified>
+      <Modified>2023-12-11T20:11:56.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account_fill_1.scale-200.png">
       <PackagePath>account_fill_1.scale-200.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.221</Modified>
+      <Modified>2023-12-11T20:11:56.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account_fill_1.scale-400.png">
       <PackagePath>account_fill_1.scale-400.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.222</Modified>
+      <Modified>2023-12-11T20:11:56.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-12-10T16:55:33.895</Modified>
+      <Modified>2023-12-11T20:11:56.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.276</Modified>
+      <Modified>2023-12-11T20:11:57.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.294</Modified>
+      <Modified>2023-12-11T20:11:57.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.309</Modified>
+      <Modified>2023-12-11T20:11:57.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.335</Modified>
+      <Modified>2023-12-11T20:11:57.146</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.433</Modified>
+      <Modified>2023-12-11T20:11:57.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.004</Modified>
+      <Modified>2023-12-11T20:11:56.844</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.011</Modified>
+      <Modified>2023-12-11T20:11:56.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.035</Modified>
+      <Modified>2023-12-11T20:11:56.868</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.017</Modified>
+      <Modified>2023-12-11T20:11:56.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.023</Modified>
+      <Modified>2023-12-11T20:11:56.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.973</Modified>
+      <Modified>2023-12-11T20:11:56.818</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.979</Modified>
+      <Modified>2023-12-11T20:11:56.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.000</Modified>
+      <Modified>2023-12-11T20:11:56.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.986</Modified>
+      <Modified>2023-12-11T20:11:56.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.990</Modified>
+      <Modified>2023-12-11T20:11:56.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.905</Modified>
+      <Modified>2023-12-11T20:11:56.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.910</Modified>
+      <Modified>2023-12-11T20:11:56.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.917</Modified>
+      <Modified>2023-12-11T20:11:56.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.927</Modified>
+      <Modified>2023-12-11T20:11:56.782</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.935</Modified>
+      <Modified>2023-12-11T20:11:56.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.941</Modified>
+      <Modified>2023-12-11T20:11:56.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.945</Modified>
+      <Modified>2023-12-11T20:11:56.796</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.967</Modified>
+      <Modified>2023-12-11T20:11:56.814</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.950</Modified>
+      <Modified>2023-12-11T20:11:56.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-12-10T16:55:33.955</Modified>
+      <Modified>2023-12-11T20:11:56.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.108</Modified>
+      <Modified>2023-12-11T20:11:56.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.116</Modified>
+      <Modified>2023-12-11T20:11:56.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.125</Modified>
+      <Modified>2023-12-11T20:11:56.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.138</Modified>
+      <Modified>2023-12-11T20:11:56.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.162</Modified>
+      <Modified>2023-12-11T20:11:56.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.072</Modified>
+      <Modified>2023-12-11T20:11:56.900</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.078</Modified>
+      <Modified>2023-12-11T20:11:56.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.084</Modified>
+      <Modified>2023-12-11T20:11:56.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.090</Modified>
+      <Modified>2023-12-11T20:11:56.917</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.101</Modified>
+      <Modified>2023-12-11T20:11:56.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.039</Modified>
+      <Modified>2023-12-11T20:11:56.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.046</Modified>
+      <Modified>2023-12-11T20:11:56.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.053</Modified>
+      <Modified>2023-12-11T20:11:56.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.058</Modified>
+      <Modified>2023-12-11T20:11:56.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.067</Modified>
+      <Modified>2023-12-11T20:11:56.895</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.169</Modified>
+      <Modified>2023-12-11T20:11:56.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.179</Modified>
+      <Modified>2023-12-11T20:11:57.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.192</Modified>
+      <Modified>2023-12-11T20:11:57.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.210</Modified>
+      <Modified>2023-12-11T20:11:57.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-12-10T16:55:34.262</Modified>
+      <Modified>2023-12-11T20:11:57.075</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asd.ico">
       <PackagePath>asd.ico</PackagePath>
-      <Modified>2023-12-11T09:56:14.225</Modified>
+      <Modified>2023-12-11T20:11:56.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLargeTile.scale-100.png">
       <PackagePath>asdLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.590</Modified>
+      <Modified>2023-12-11T20:11:57.091</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLargeTile.scale-125.png">
       <PackagePath>asdLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.610</Modified>
+      <Modified>2023-12-11T20:11:57.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLargeTile.scale-150.png">
       <PackagePath>asdLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.627</Modified>
+      <Modified>2023-12-11T20:11:57.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLargeTile.scale-200.png">
       <PackagePath>asdLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.654</Modified>
+      <Modified>2023-12-11T20:11:57.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLargeTile.scale-400.png">
       <PackagePath>asdLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.753</Modified>
+      <Modified>2023-12-11T20:11:57.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>asdLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.326</Modified>
+      <Modified>2023-12-11T20:11:56.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>asdLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.330</Modified>
+      <Modified>2023-12-11T20:11:56.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>asdLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.351</Modified>
+      <Modified>2023-12-11T20:11:56.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>asdLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.333</Modified>
+      <Modified>2023-12-11T20:11:56.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>asdLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.342</Modified>
+      <Modified>2023-12-11T20:11:56.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.altform-unplated_targetsize-16.png">
       <PackagePath>asdLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.293</Modified>
+      <Modified>2023-12-11T20:11:56.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.altform-unplated_targetsize-24.png">
       <PackagePath>asdLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.299</Modified>
+      <Modified>2023-12-11T20:11:56.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.altform-unplated_targetsize-256.png">
       <PackagePath>asdLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.322</Modified>
+      <Modified>2023-12-11T20:11:56.839</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.altform-unplated_targetsize-32.png">
       <PackagePath>asdLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.305</Modified>
+      <Modified>2023-12-11T20:11:56.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.altform-unplated_targetsize-48.png">
       <PackagePath>asdLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.310</Modified>
+      <Modified>2023-12-11T20:11:56.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.scale-100.png">
       <PackagePath>asdLogo.scale-100.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.237</Modified>
+      <Modified>2023-12-11T20:11:56.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.scale-125.png">
       <PackagePath>asdLogo.scale-125.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.245</Modified>
+      <Modified>2023-12-11T20:11:56.772</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.scale-150.png">
       <PackagePath>asdLogo.scale-150.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.249</Modified>
+      <Modified>2023-12-11T20:11:56.776</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.scale-200.png">
       <PackagePath>asdLogo.scale-200.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.254</Modified>
+      <Modified>2023-12-11T20:11:56.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.scale-400.png">
       <PackagePath>asdLogo.scale-400.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.262</Modified>
+      <Modified>2023-12-11T20:11:56.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.targetsize-16.png">
       <PackagePath>asdLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.266</Modified>
+      <Modified>2023-12-11T20:11:56.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.targetsize-24.png">
       <PackagePath>asdLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.270</Modified>
+      <Modified>2023-12-11T20:11:56.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.targetsize-256.png">
       <PackagePath>asdLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.289</Modified>
+      <Modified>2023-12-11T20:11:56.814</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.targetsize-32.png">
       <PackagePath>asdLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.273</Modified>
+      <Modified>2023-12-11T20:11:56.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdLogo.targetsize-48.png">
       <PackagePath>asdLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.280</Modified>
+      <Modified>2023-12-11T20:11:56.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdMediumTile.scale-100.png">
       <PackagePath>asdMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.422</Modified>
+      <Modified>2023-12-11T20:11:56.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdMediumTile.scale-125.png">
       <PackagePath>asdMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.429</Modified>
+      <Modified>2023-12-11T20:11:56.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdMediumTile.scale-150.png">
       <PackagePath>asdMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.436</Modified>
+      <Modified>2023-12-11T20:11:56.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdMediumTile.scale-200.png">
       <PackagePath>asdMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.449</Modified>
+      <Modified>2023-12-11T20:11:56.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdMediumTile.scale-400.png">
       <PackagePath>asdMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.473</Modified>
+      <Modified>2023-12-11T20:11:56.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdSmallTile.scale-100.png">
       <PackagePath>asdSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.385</Modified>
+      <Modified>2023-12-11T20:11:56.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdSmallTile.scale-125.png">
       <PackagePath>asdSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.390</Modified>
+      <Modified>2023-12-11T20:11:56.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdSmallTile.scale-150.png">
       <PackagePath>asdSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.395</Modified>
+      <Modified>2023-12-11T20:11:56.906</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdSmallTile.scale-200.png">
       <PackagePath>asdSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.403</Modified>
+      <Modified>2023-12-11T20:11:56.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdSmallTile.scale-400.png">
       <PackagePath>asdSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.413</Modified>
+      <Modified>2023-12-11T20:11:56.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdStoreLogo.scale-100.png">
       <PackagePath>asdStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.355</Modified>
+      <Modified>2023-12-11T20:11:56.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdStoreLogo.scale-125.png">
       <PackagePath>asdStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.362</Modified>
+      <Modified>2023-12-11T20:11:56.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdStoreLogo.scale-150.png">
       <PackagePath>asdStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.367</Modified>
+      <Modified>2023-12-11T20:11:56.878</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdStoreLogo.scale-200.png">
       <PackagePath>asdStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.371</Modified>
+      <Modified>2023-12-11T20:11:56.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdStoreLogo.scale-400.png">
       <PackagePath>asdStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.381</Modified>
+      <Modified>2023-12-11T20:11:56.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdWideTile.scale-100.png">
       <PackagePath>asdWideTile.scale-100.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.483</Modified>
+      <Modified>2023-12-11T20:11:56.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdWideTile.scale-125.png">
       <PackagePath>asdWideTile.scale-125.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.493</Modified>
+      <Modified>2023-12-11T20:11:57.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdWideTile.scale-150.png">
       <PackagePath>asdWideTile.scale-150.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.507</Modified>
+      <Modified>2023-12-11T20:11:57.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdWideTile.scale-200.png">
       <PackagePath>asdWideTile.scale-200.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.526</Modified>
+      <Modified>2023-12-11T20:11:57.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdWideTile.scale-400.png">
       <PackagePath>asdWideTile.scale-400.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.577</Modified>
+      <Modified>2023-12-11T20:11:57.078</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cards_fill_0.scale-100.png">
       <PackagePath>cards_fill_0.scale-100.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.207</Modified>
+      <Modified>2023-12-11T20:11:56.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cards_fill_0.scale-125.png">
       <PackagePath>cards_fill_0.scale-125.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.211</Modified>
+      <Modified>2023-12-11T20:11:56.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cards_fill_0.scale-150.png">
       <PackagePath>cards_fill_0.scale-150.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.219</Modified>
+      <Modified>2023-12-11T20:11:56.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cards_fill_0.scale-200.png">
       <PackagePath>cards_fill_0.scale-200.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.221</Modified>
+      <Modified>2023-12-11T20:11:56.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cards_fill_0.scale-400.png">
       <PackagePath>cards_fill_0.scale-400.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.222</Modified>
+      <Modified>2023-12-11T20:11:56.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cards_fill_1.scale-100.png">
       <PackagePath>cards_fill_1.scale-100.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.208</Modified>
+      <Modified>2023-12-11T20:11:56.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cards_fill_1.scale-125.png">
       <PackagePath>cards_fill_1.scale-125.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.211</Modified>
+      <Modified>2023-12-11T20:11:56.745</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cards_fill_1.scale-150.png">
       <PackagePath>cards_fill_1.scale-150.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.237</Modified>
+      <Modified>2023-12-11T20:11:56.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cards_fill_1.scale-200.png">
       <PackagePath>cards_fill_1.scale-200.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.241</Modified>
+      <Modified>2023-12-11T20:11:56.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cards_fill_1.scale-400.png">
       <PackagePath>cards_fill_1.scale-400.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.243</Modified>
+      <Modified>2023-12-11T20:11:56.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_fill_0.scale-100.png">
       <PackagePath>home_fill_0.scale-100.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.207</Modified>
+      <Modified>2023-12-11T20:11:56.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_fill_0.scale-125.png">
       <PackagePath>home_fill_0.scale-125.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.209</Modified>
+      <Modified>2023-12-11T20:11:56.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_fill_0.scale-150.png">
       <PackagePath>home_fill_0.scale-150.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.224</Modified>
+      <Modified>2023-12-11T20:11:56.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_fill_0.scale-200.png">
       <PackagePath>home_fill_0.scale-200.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.225</Modified>
+      <Modified>2023-12-11T20:11:56.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_fill_0.scale-400.png">
       <PackagePath>home_fill_0.scale-400.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.226</Modified>
+      <Modified>2023-12-11T20:11:56.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_fill_1.scale-100.png">
       <PackagePath>home_fill_1.scale-100.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.208</Modified>
+      <Modified>2023-12-11T20:11:56.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_fill_1.scale-125.png">
       <PackagePath>home_fill_1.scale-125.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.210</Modified>
+      <Modified>2023-12-11T20:11:56.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_fill_1.scale-150.png">
       <PackagePath>home_fill_1.scale-150.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.238</Modified>
+      <Modified>2023-12-11T20:11:56.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_fill_1.scale-200.png">
       <PackagePath>home_fill_1.scale-200.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.241</Modified>
+      <Modified>2023-12-11T20:11:56.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_fill_1.scale-400.png">
       <PackagePath>home_fill_1.scale-400.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.242</Modified>
+      <Modified>2023-12-11T20:11:56.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
-      <Modified>2023-12-11T10:01:40.404</Modified>
+      <Modified>2023-12-11T20:11:56.757</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-125.png">
       <PackagePath>logo.scale-125.png</PackagePath>
-      <Modified>2023-12-11T10:01:40.414</Modified>
+      <Modified>2023-12-11T20:11:56.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-150.png">
       <PackagePath>logo.scale-150.png</PackagePath>
-      <Modified>2023-12-11T10:01:40.429</Modified>
+      <Modified>2023-12-11T20:11:56.782</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-200.png">
       <PackagePath>logo.scale-200.png</PackagePath>
-      <Modified>2023-12-11T10:01:40.455</Modified>
+      <Modified>2023-12-11T20:11:56.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-400.png">
       <PackagePath>logo.scale-400.png</PackagePath>
-      <Modified>2023-12-11T10:01:40.552</Modified>
+      <Modified>2023-12-11T20:11:56.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\timeline_fill_0.scale-100.png">
       <PackagePath>timeline_fill_0.scale-100.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.207</Modified>
+      <Modified>2023-12-11T20:11:56.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\timeline_fill_0.scale-125.png">
       <PackagePath>timeline_fill_0.scale-125.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.210</Modified>
+      <Modified>2023-12-11T20:11:56.745</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\timeline_fill_0.scale-150.png">
       <PackagePath>timeline_fill_0.scale-150.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.238</Modified>
+      <Modified>2023-12-11T20:11:56.747</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\timeline_fill_0.scale-200.png">
       <PackagePath>timeline_fill_0.scale-200.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.241</Modified>
+      <Modified>2023-12-11T20:11:56.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\timeline_fill_0.scale-400.png">
       <PackagePath>timeline_fill_0.scale-400.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.243</Modified>
+      <Modified>2023-12-11T20:11:56.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\timeline_fill_1.scale-100.png">
       <PackagePath>timeline_fill_1.scale-100.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.207</Modified>
+      <Modified>2023-12-11T20:11:56.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\timeline_fill_1.scale-125.png">
       <PackagePath>timeline_fill_1.scale-125.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.209</Modified>
+      <Modified>2023-12-11T20:11:56.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\timeline_fill_1.scale-150.png">
       <PackagePath>timeline_fill_1.scale-150.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.219</Modified>
+      <Modified>2023-12-11T20:11:56.749</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\timeline_fill_1.scale-200.png">
       <PackagePath>timeline_fill_1.scale-200.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.221</Modified>
+      <Modified>2023-12-11T20:11:56.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\timeline_fill_1.scale-400.png">
       <PackagePath>timeline_fill_1.scale-400.png</PackagePath>
-      <Modified>2023-12-11T09:56:14.223</Modified>
+      <Modified>2023-12-11T20:11:56.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\budget.deps.json">
       <PackagePath>budget.deps.json</PackagePath>
-      <Modified>2023-12-11T09:56:17.316</Modified>
+      <Modified>2023-12-11T20:11:58.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -1060,11 +1059,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\budget.styles.css">
       <PackagePath>wwwroot\budget.styles.css</PackagePath>
-      <Modified>2023-12-10T16:55:30.916</Modified>
+      <Modified>2023-12-11T20:11:25.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\budget.bundle.scp.css">
       <PackagePath>wwwroot\budget.bundle.scp.css</PackagePath>
-      <Modified>2023-12-10T16:55:30.928</Modified>
+      <Modified>2023-12-11T20:11:25.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
@@ -1082,8 +1081,7 @@
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Users\damia\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
-      <MoreInfo>
-      </MoreInfo>
+      <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\damia\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix">
       <Name>Microsoft.WindowsAppRuntime.1.3</Name>
@@ -1091,8 +1089,7 @@
       <Architecture>win32</Architecture>
       <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Users\damia\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
-      <MoreInfo>
-      </MoreInfo>
+      <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\damia\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.3.msix">
       <Name>Microsoft.WindowsAppRuntime.1.3</Name>
@@ -1100,8 +1097,7 @@
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Users\damia\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
-      <MoreInfo>
-      </MoreInfo>
+      <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\damia\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.3.msix">
       <Name>Microsoft.WindowsAppRuntime.1.3</Name>
@@ -1109,8 +1105,7 @@
       <Architecture>arm64</Architecture>
       <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Users\damia\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
-      <MoreInfo>
-      </MoreInfo>
+      <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
   </ItemGroup>
 </Project>

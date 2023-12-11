@@ -33,13 +33,14 @@
     --light-font: "Inter Light";
     --regular-font: "Inter Regular";
     --bold-font: "Inter Bold";
+    
     font-size: 16px;
     color: var(--text-color);
     font-family: var(--regular-font);
 }
 
 *::selection {
-
+    
 }
 
 body {
@@ -82,7 +83,7 @@ footer nav {
     border-top-right-radius: 12px;
 }
     footer nav .mobile-nav-item {
-        padding: 12px;
+        padding: 8px;
         transition: background-color 0.25s ease;
         border-radius: 12px;
         display: flex;
