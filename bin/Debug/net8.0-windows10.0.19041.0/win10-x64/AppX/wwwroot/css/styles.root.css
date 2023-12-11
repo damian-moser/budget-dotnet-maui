@@ -38,9 +38,8 @@
     font-family: var(--regular-font);
 }
 
-*::selection{
-    background-color: var(--sec-color);
-    color: var(--text-color);
+*::selection {
+
 }
 
 body {
@@ -66,6 +65,10 @@ a {
     text-decoration: none;
 }
 
+img, iframe, .button {
+    user-select: none;
+}
+
 footer nav {
     width: 100%;
     padding: 0.5rem 0;
@@ -78,7 +81,6 @@ footer nav {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
-
     footer nav .mobile-nav-item {
         padding: 12px;
         transition: background-color 0.25s ease;
@@ -99,15 +101,12 @@ footer nav {
     justify-content: center;
     gap: 2rem;
 }
-    
     .cred-content svg {
         width: 64px;
     }
-
     .cred-content h2 {
         color: var(--pri-color);
     }
-
     .cred-content form {
         display: flex;
         flex-direction: column;
@@ -118,7 +117,6 @@ footer nav {
             flex-direction: column;
             gap: 0.5rem;
         }
-
             .cred-content form input {
                 padding: 12px;
                 font-size: 1rem;
@@ -132,11 +130,23 @@ footer nav {
                 .cred-content form input:focus {
                     border-bottom-color: var(--pri-color);
                 }
-
     .cred-content p {
         color: var(--pri-color);
     }
-
         .cred-content p a {
             color: var(--sec-color);
         }
+
+header {
+    text-align: center;
+    padding-top: 1rem;
+}
+    header p {
+        color: var(--pri-color);
+        font-family: var(--bold-font);
+    }
+    header svg {
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+    }

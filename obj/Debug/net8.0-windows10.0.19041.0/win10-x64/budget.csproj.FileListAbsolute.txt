@@ -289,3 +289,4 @@ C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\res
 C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdWideTile.scale-150.png
 C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdWideTile.scale-200.png
 C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\asdWideTile.scale-400.png
+C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\budget.sourcelink.json

@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\damia\Desktop\budget\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-11T10:44:05.527</Modified>
+      <Modified>2023-12-11T20:00:00.257</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\budget.dll">
       <PackagePath>budget.dll</PackagePath>
-      <Modified>2023-12-11T10:44:04.840</Modified>
+      <Modified>2023-12-11T19:59:44.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>budget.exe</PackagePath>
-      <Modified>2023-12-11T10:44:04.877</Modified>
+      <Modified>2023-12-11T19:59:44.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -56,7 +56,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
-      <Modified>2023-12-11T10:11:57.076</Modified>
+      <Modified>2023-12-11T19:57:17.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
@@ -80,7 +80,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\wwwroot\css\styles.root.css">
       <PackagePath>wwwroot\css\styles.root.css</PackagePath>
-      <Modified>2023-12-11T10:33:27.193</Modified>
+      <Modified>2023-12-11T19:59:59.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
@@ -120,7 +120,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
-      <Modified>2023-12-10T21:58:23.975</Modified>
+      <Modified>2023-12-11T14:09:10.527</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
