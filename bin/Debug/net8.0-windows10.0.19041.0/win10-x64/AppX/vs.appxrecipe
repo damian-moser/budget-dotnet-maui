@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\damia\Desktop\budget\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-11T20:17:57.963</Modified>
+      <Modified>2023-12-12T20:11:15.214</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\budget.dll">
       <PackagePath>budget.dll</PackagePath>
-      <Modified>2023-12-11T20:17:08.716</Modified>
+      <Modified>2023-12-12T20:11:14.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>budget.exe</PackagePath>
-      <Modified>2023-12-11T20:17:08.720</Modified>
+      <Modified>2023-12-12T20:11:14.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\Desktop\budget\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
