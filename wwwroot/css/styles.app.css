@@ -1,0 +1,17 @@
+﻿.island {
+    width: 100%;
+    background-color: var(--pri-color);
+    border-radius: var(--border-radius);
+    padding: var(--padding-normal);
+    margin: var(--spacing);
+}
+
+.island-image {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+    .island-image svg {
+        height: 64px;
+        width: auto;
+    }

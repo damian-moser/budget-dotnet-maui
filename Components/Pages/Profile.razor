@@ -1,3 +1,15 @@
 @page "/profile"
+@using budget.Components.Layout
 
-<h1>Profil</h1>
+
+
+@code {
+    [CascadingParameter]
+    public MainLayout? Layout { get; set; }
+
+    protected override void OnInitialized() {
+        if (Layout != null) {
+            Layout.Title = "Profil";
+        }
+    }
+}

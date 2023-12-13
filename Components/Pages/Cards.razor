@@ -1,3 +1,15 @@
 @page "/cards"
+@using budget.Components.Layout
 
-<h1>Karten</h1>
+
+
+@code {
+    [CascadingParameter]
+    public MainLayout? Layout { get; set; }
+
+    protected override void OnInitialized() {
+        if (Layout != null) {
+            Layout.Title = "Karten";
+        }
+    }
+}

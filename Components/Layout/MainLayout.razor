@@ -16,20 +16,18 @@
             </article>
         </main>
         <footer>
-            <NavMenu />
+            <div class="spacer"></div>
+            <NavMenu/>
         </footer>
     </div>
 </CascadingValue>
 
-@code
-{
+@code {
     private string title;
 
-    public string Title
-    {
+    public string Title {
         get => title;
-        set
-        {
+        set {
             title = value;
             InvokeAsync(() => StateHasChanged());
         }

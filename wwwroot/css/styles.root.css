@@ -33,6 +33,10 @@
     --light-font: "Inter Light";
     --regular-font: "Inter Regular";
     --bold-font: "Inter Bold";
+
+    --border-radius: 1rem;
+    --padding-normal: 1rem;
+    --spacing: 1rem 0;
     
     font-size: 16px;
     color: var(--text-color);
@@ -40,13 +44,15 @@
 }
 
 *::selection {
-    
+    background-color: var(--bg-color);
+    color: var(--pri-color);
 }
 
 body {
     background-color: var(--bg-color);
     width: 100vw;
     max-width: 100%;
+    min-height: 100vh;
 }
 
 .button {
@@ -68,6 +74,10 @@ a {
 
 img, iframe, .button {
     user-select: none;
+}
+
+.spacer {
+    height: 64px;
 }
 
 footer nav {
