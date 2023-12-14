@@ -18,19 +18,11 @@
 		item.querySelector("img").src = "Images/" + item.id + "_fill_1.svg";
 	}
 
-	function clearAllNavLink() {
-		document.querySelectorAll(".mobile-nav-item").forEach(item => item.querySelector("img").src = "Images/" + item.id + "_fill_0.svg");
-	}
+	fillNavLink(document.querySelector("#home"));
 
-	const currentPageId = localStorage.getItem("current_page");
-	if (currentPageId) {
-		fillNavLink(document.getElementById(currentPageId));
-	}
-	
 	document.querySelectorAll(".mobile-nav-item").forEach(item => {
 		item.addEventListener("click", () => {
-			localStorage.setItem("current_page", item.id);
-			clearAllNavLink();
+			document.querySelectorAll(".mobile-nav-item").forEach(item => item.querySelector("img").src = "Images/" + item.id + "_fill_0.svg");
 			fillNavLink(item);
 		});
 	});
