@@ -2,10 +2,33 @@
 @using budget.Components.Layout
 
 <div class="island profile">
-    <div class="profile-img">
-        <img src="Images/pinguin.png" alt="Profil Bild"/>
+    <img draggable="false" src="Images/pinguin.png" alt="Profil Bild" />
+    <h2>Damian Moser</h2>
+    <strong>damian.<wbr/>moser</strong>
+</div>
+<div class="island profile-information">
+    <h3>Information</h3>
+    <table>
+        <tr>
+            <th>E-Mail</th>
+            <td>dmo1407<wbr/>48@stud<wbr/>.gibb.ch</td>
+        </tr>
+        <tr>
+            <th>Tel</th>
+            <td>079 810 73 96</td>
+        </tr>
+    </table>
+</div>
+<div class="island settings">
+    <h3>Settings</h3>
+    <div class="setting">
+        <strong>Darkmode</strong>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
     </div>
-    <h1>Damian Moser</h1>
+    <hr/>
 </div>
 
 @code {

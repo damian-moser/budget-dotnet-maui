@@ -55,30 +55,19 @@ body {
     min-height: 100vh;
 }
 
-.button {
-    padding: 12px;
-    border-radius: 8px;
-    border: none;
-    background-color: var(--sec-color);
-    font-size: 1rem;
-    transition: background-color 0.25s ease;
-    font-family: var(--bold-font);
+header {
+    text-align: center;
+    padding-top: 1rem;
 }
-    .button:hover {
-        background-color: var(--hover-sec-color);
+    header p {
+        color: var(--pri-color);
+        font-family: var(--bold-font);
     }
-
-a {
-    text-decoration: none;
-}
-
-img, iframe, .button {
-    user-select: none;
-}
-
-.spacer {
-    height: 64px;
-}
+    header svg {
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+    }
 
 footer nav {
     width: 100%;
@@ -103,61 +92,4 @@ footer nav {
     }
     footer nav .mobile-nav-item:hover {
         background-color: #EEEEEE;
-    }
-
-.cred-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-}
-    .cred-content svg {
-        width: 64px;
-    }
-    .cred-content h2 {
-        color: var(--pri-color);
-    }
-    .cred-content form {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-        .cred-content form div {
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-        }
-            .cred-content form input {
-                padding: 12px;
-                font-size: 1rem;
-                border: none;
-                border-bottom: 1px #333333 solid;
-                outline: none;
-                background-color: var(--bg-color);
-                color: var(--pri-color);
-                transition: border-bottom-color 0.25s ease;
-            }
-                .cred-content form input:focus {
-                    border-bottom-color: var(--pri-color);
-                }
-    .cred-content p {
-        color: var(--pri-color);
-    }
-        .cred-content p a {
-            color: var(--sec-color);
-        }
-
-header {
-    text-align: center;
-    padding-top: 1rem;
-}
-    header p {
-        color: var(--pri-color);
-        font-family: var(--bold-font);
-    }
-    header svg {
-        position: absolute;
-        top: 1rem;
-        right: 1.5rem;
     }
