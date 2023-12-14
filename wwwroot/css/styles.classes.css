@@ -27,7 +27,6 @@ hr {
 }
 
 .island {
-    width: 100%;
     background-color: var(--pri-color);
     border-radius: var(--border-radius);
     padding: var(--padding-normal);
