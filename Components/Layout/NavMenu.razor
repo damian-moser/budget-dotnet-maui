@@ -1,28 +1,26 @@
 ﻿<nav>
-	<a id="home" href="/" class="mobile-nav-item active-mobile-item" title="Home" draggable="false" data-link-name="home">
-		<img draggable="false" alt="Home" src="Images/home_fill_0.svg" />
+	<a id="home" href="/" class="mobile-nav-item active-mobile-item" title="Home" draggable="false">
+		<img draggable="false" alt="Home" src="Images/home_0.svg" />
 	</a>
-	<a id="timeline" href="history" class="mobile-nav-item" title="Verlauf" draggable="false" data-link-name="timeline">
-		<img draggable="false" alt="Verlauf" src="Images/timeline_fill_0.svg" />
+	<a id="history" href="history" class="mobile-nav-item" title="Verlauf" draggable="false">
+		<img draggable="false" alt="Verlauf" src="Images/history_0.svg" />
 	</a>
-	<a id="cards" href="cards" class="mobile-nav-item" title="Karten" draggable="false" data-link-name="cards">
-		<img draggable="false" alt="Karten" src="Images/cards_fill_0.svg" />
+	<a id="cards" href="cards" class="mobile-nav-item" title="Karten" draggable="false">
+		<img draggable="false" alt="Karten" src="Images/cards_0.svg" />
 	</a>
-	<a id="account" href="profile" class="mobile-nav-item" title="Profil" draggable="false" data-link-name="account">
-		<img draggable="false" alt="Profile" src="Images/account_fill_0.svg" />
+	<a id="profile" href="profile" class="mobile-nav-item" title="Profil" draggable="false">
+		<img draggable="false" alt="Profile" src="Images/profile_0.svg" />
 	</a>
 </nav>
 
 <script>
 	function fillNavLink(item) {
-		item.querySelector("img").src = "Images/" + item.id + "_fill_1.svg";
+		item.querySelector("img").src = "Images/" + item.id + "_1.svg";
 	}
-
-	fillNavLink(document.querySelector("#home"));
 
 	document.querySelectorAll(".mobile-nav-item").forEach(item => {
 		item.addEventListener("click", () => {
-			document.querySelectorAll(".mobile-nav-item").forEach(item => item.querySelector("img").src = "Images/" + item.id + "_fill_0.svg");
+			document.querySelectorAll(".mobile-nav-item").forEach(item => item.querySelector("img").src = "Images/" + item.id + "_0.svg");
 			fillNavLink(item);
 		});
 	});
