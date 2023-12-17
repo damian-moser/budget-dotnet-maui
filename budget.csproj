@@ -74,6 +74,7 @@
       <None Include="wwwroot\Images\home_fill_1.svg" />
       <None Include="wwwroot\Images\timeline_fill_0.svg" />
       <None Include="wwwroot\Images\timeline_fill_1.svg" />
+      <None Include="wwwroot\Scripts\main.js" />
     </ItemGroup>
 
     <ItemGroup>
