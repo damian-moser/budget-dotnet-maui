@@ -1,4 +1,12 @@
-﻿.overlay {
+﻿.edit {
+    border: none;
+    background-color: var(--bg-color);
+    border-radius: 4px;
+    padding: 4px;
+    color: var(--pri-color);
+}
+
+.overlay {
     position: fixed;
     z-index: 99;
     left: 0;
