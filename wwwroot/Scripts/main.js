@@ -12,7 +12,3 @@ function editCashValue(identifier, plus) {
         value.innerHTML = result >= 0 ? result.toFixed(2) : 0;
     }
 }
-
-function saveCash() {
-    
-}

@@ -1,0 +1,29 @@
+﻿.transaction {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+    .transaction .icon {
+        padding: var(--padding-normal);
+        background-color: lightblue;
+        border-radius: var(--border-radius);
+    }
+    .transaction div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+        .transaction div span {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .transaction div strong {
+            font-size: 0.7rem;
+            margin: 0;
+        }
+        .transaction div h4 {
+            margin: 0;
+        }
