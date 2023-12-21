@@ -14,105 +14,31 @@
     <div class="island">
         <p>Bargeld</p>
         <h2>CHF 254.20</h2>
-        <button class="edit" onclick="toggle()">edit</button>
+        <button class="edit" onclick="toggle()">anpassen</button>
     </div>
 </div>
 
 <div id="popup" class="overlay">
     <div class="popup">
-        <button onclick="toggle();" type="button" class="close">&times;</button>
-        <h2>Bargeld bearbeiten</h2>
-        <div id="cash">
-            <div>
-                <span class="amount">
-                    <p id="100">0</p>
-                    <span class="identifier">100</span>
-                </span>
-                <button type="button" onclick="editCashValue(this, false);" data-cash-type="100" class="minus">-</button>
-                <button type="button" onclick="editCashValue(this, true);" data-cash-type="100" class="plus">+</button>
-            </div>
-            <div>
-                <span class="amount">
-                    <p id="50">0</p>
-                    <span class="identifier">50</span>
-                </span>
-                <button type="button" onclick="editCashValue(this, false);" data-cash-type="50" class="minus">-</button>
-                <button type="button" onclick="editCashValue(this, true);" data-cash-type="50" class="plus">+</button>
-            </div>
-            <div>
-                <span class="amount">
-                    <p id="20">0</p>
-                    <span class="identifier">20</span>
-                </span>
-                <button type="button" onclick="editCashValue(this, false);" data-cash-type="20" class="minus">-</button>
-                <button type="button" onclick="editCashValue(this, true);" data-cash-type="20" class="plus">+</button>
-            </div>
-            <div>
-                <span class="amount">
-                    <p id="10">0</p>
-                    <span class="identifier">10</span>
-                </span>
-                <button type="button" onclick="editCashValue(this, false);" data-cash-type="10" class="minus">-</button>
-                <button type="button" onclick="editCashValue(this, true);" data-cash-type="10" class="plus">+</button>
-            </div>
-            <div>
-                <span class="amount">
-                    <p id="5">0</p>
-                    <span class="identifier">5</span>
-                </span>
-                <button type="button" onclick="editCashValue(this, false);" data-cash-type="5" class="minus">-</button>
-                <button type="button" onclick="editCashValue(this, true);" data-cash-type="5" class="plus">+</button>
-            </div>
-            <div>
-                <span class="amount">
-                    <p id="2">0</p>
-                    <span class="identifier">2</span>
-                </span>
-                <button type="button" onclick="editCashValue(this, false);" data-cash-type="2" class="minus">-</button>
-                <button type="button" onclick="editCashValue(this, true);" data-cash-type="2" class="plus">+</button>
-            </div>
-            <div>
-                <span class="amount">
-                    <p id="1">0</p>
-                    <span class="identifier">1</span>
-                </span>
-                <button type="button" onclick="editCashValue(this, false);" data-cash-type="1" class="minus">-</button>
-                <button type="button" onclick="editCashValue(this, true);" data-cash-type="1" class="plus">+</button>
-            </div>
-            <div>
-                <span class="amount">
-                    <p id="0.5">0</p>
-                    <span class="identifier">0.50</span>
-                </span>
-                <button type="button" onclick="editCashValue(this, false);" data-cash-type="0.5" class="minus">-</button>
-                <button type="button" onclick="editCashValue(this, true);" data-cash-type="0.5" class="plus">+</button>
-            </div>
-            <div>
-                <span class="amount">
-                    <p id="0.20">0</p>
-                    <span class="identifier">0.20</span>
-                </span>
-                <button type="button" onclick="editCashValue(this, false);" data-cash-type="0.20" class="minus">-</button>
-                <button type="button" onclick="editCashValue(this, true);" data-cash-type="0.20" class="plus">+</button>
-            </div>
-            <div>
-                <span class="amount">
-                    <p id="0.1">0</p>
-                    <span class="identifier">0.10</span>
-                </span>
-                <button type="button" onclick="editCashValue(this, false);" data-cash-type="0.1" class="minus">-</button>
-                <button type="button" onclick="editCashValue(this, true);" data-cash-type="0.1" class="plus">+</button>
-            </div>
-            <div>
-                <span class="amount">
-                    <p id="0.05">0</p>
-                    <span class="identifier">0.05</span>
-                </span>
-                <button type="button" onclick="editCashValue(this, false);" data-cash-type="0.05" class="minus">-</button>
-                <button type="button" onclick="editCashValue(this, true);" data-cash-type="0.05" class="plus">+</button>
-            </div>
+        <div class="d-flex justify-content-between align-items-center flex-wrap w-100">
+            <h2>Bargeld anpassen</h2>
+            <a href="javascript:toggle();">
+                <img src="Images/close.svg" alt="Schliessen" title="Schliessen"/>
+            </a>
         </div>
-        <button class="button" type="button">Speichern</button>
+        <form>
+            <div class="input-group mb-3">
+                <span class="input-group-text">CHF</span>
+                <input 
+                    type="number" 
+                    step="0.05" 
+                    min="0" 
+                    class="form-control" 
+                    placeholder="Betrag" 
+                    required="required">
+            </div>
+            <button class="button align-self-end" type="submit">Speichern</button>
+        </form>
     </div>
 </div>
 
