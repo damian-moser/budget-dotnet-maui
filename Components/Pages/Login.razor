@@ -9,23 +9,40 @@
 		</g>
 	</svg>
 	<h2>Anmelden</h2>
-	<form>
+	<form id="login">
 		<div>
-			<input id="email"
-				   placeholder="E-Mail"
-				   type="email"
-				   spellcheck="false"
-				   autocomplete="off"
-				   autofocus
-				   required />
-			<input id="password"
-				   placeholder="Passwort"
-				   type="password"
-				   spellcheck="false"
-				   autocomplete="off"
-				   required />
+			<input 
+				id="email"
+				placeholder="E-Mail"
+				type="email"
+				inputmode="email"
+				spellcheck="false"
+				autocomplete="off"
+				autofocus="autofocus"
+				required 
+			/>
+			<input 
+				id="password"
+				placeholder="Passwort"
+				type="password"
+				spellcheck="false"
+				autocomplete="off"
+				required 
+			/>
 		</div>
+		<p id="msg" class="msg"></p>
 		<button type="submit" class="button">Login</button>
 	</form>
 	<p>Noch kein Konto? <a href="/register">Registrieren</a></p>
 </section>
+
+<script>
+	document.getElementById("login").addEventListener("submit", (e) => {
+		e.preventDefault();
+		if (document.getElementById("email").value === "a@a.ch" && document.getElementById("password").value === "a") {
+			window.location.assign("/");
+		} else {
+			document.getElementById("msg").innerHTML = "Falsche Anmeldedaten!";
+		}
+	});
+</script>

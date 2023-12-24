@@ -93,3 +93,7 @@ footer nav {
     footer nav .mobile-nav-item:hover {
         background-color: #EEEEEE;
     }
+    
+.msg {
+    color: var(--sec-color) !important;
+}

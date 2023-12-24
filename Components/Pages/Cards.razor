@@ -3,6 +3,7 @@
 
 <script src="Scripts/main.js" defer></script>
 
+<button onclick="newCard();" class="button mb-3">Karte hinzufügen</button>
 <div class="island-group">
     <div class="island island-image">
         <div>
@@ -14,30 +15,57 @@
     <div class="island">
         <p>Bargeld</p>
         <h2>CHF 254.20</h2>
-        <button class="edit" onclick="toggle()">anpassen</button>
+        <button class="edit" onclick="editCash()">anpassen</button>
     </div>
 </div>
 
-<div id="popup" class="overlay">
+<div id="popup-cash" class="overlay">
     <div class="popup">
         <div class="d-flex justify-content-between align-items-center flex-wrap w-100">
             <h2>Bargeld anpassen</h2>
-            <a href="javascript:toggle();">
+            <a href="javascript:editCash();">
                 <img src="Images/close.svg" alt="Schliessen" title="Schliessen"/>
             </a>
         </div>
         <form>
             <div class="input-group mb-3">
                 <span class="input-group-text">CHF</span>
-                <input 
+                <input
                     type="number" 
+                    autocomplete="off"
+                    inputmode="numeric"
+                    autofocus="autofocus"
                     step="0.05" 
                     min="0" 
                     class="form-control" 
                     placeholder="Betrag" 
-                    required="required">
+                    required="required"
+                >
             </div>
             <button class="button align-self-end" type="submit">Speichern</button>
+        </form>
+    </div>
+</div>
+
+<div id="popup-new-card" class="overlay">
+    <div class="popup">
+        <div class="d-flex justify-content-between align-items-center flex-wrap w-100">
+            <h2>Neue Karte</h2>
+            <a href="javascript:newCard();">
+                <img src="Images/close.svg" alt="Schliessen" title="Schliessen"/>
+            </a>
+        </div>
+        <form>
+            <div class="input-group mb-3">
+              <input type="number" min="0" max="9999999999999999" inputmode="numeric" class="form-control" placeholder="Kartennummer" required="required">
+            </div>
+            
+            <div class="input-group mb-3">
+                <input type="date" class="form-control" placeholder="Ablaufdatum" required="required">
+                <input type="number" min="0" max="999" class="form-control" placeholder="Prüfnummer" required="required">
+            </div>
+            
+            <button class="button align-self-end" type="submit">Hinzufügen</button>
         </form>
     </div>
 </div>
