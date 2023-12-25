@@ -6,12 +6,16 @@
     color: var(--pri-color);
 }
 
+.remove {
+    background-color: red;
+}
+
 .overlay {
     position: fixed;
     z-index: 99;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 100%; 
     height: 100%;
     background-color: rgba(0, 0, 0, 0.25);
     display: none;
