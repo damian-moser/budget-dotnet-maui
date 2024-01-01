@@ -2,10 +2,11 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    background-color: #836F81;
 }
     .transaction .icon {
         padding: var(--padding-normal);
-        background-color: lightblue;
+        background-color: #FFFFFF;
         border-radius: var(--border-radius);
     }
     .transaction div {
@@ -14,16 +15,31 @@
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 0.5rem;
+        color: #FFFFFF;
     }
         .transaction div span {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: start;
         }
-        .transaction div strong {
+        .transaction div .amount {
+            align-items: end;
+        }
+        .transaction div p {
             font-size: 0.7rem;
             margin: 0;
         }
         .transaction div h4 {
             margin: 0;
         }
+.plus {
+    background-color: #42887C;
+}
+
+.headline {
+    color: #FFFFFF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

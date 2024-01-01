@@ -1,46 +1,80 @@
 @page "/history"
 @using budget.Components.Layout
+@using MudBlazor
 
-<div class="island-group">
+<div>
     <div class="island transaction">
         <span class="icon">
             <img src="Images/cart.svg" alt="Shopping"/>
         </span>
         <div>
             <span>
-                <h4>Shopping</h4>
-                <strong>10 Dezember 2023</strong>
+                <h4>H&M Thun</h4>
+                <p>10 Dezember 2023</p>
             </span>
-            <span>
-                <h4>CHF239</h4>
-                <strong>Bargeld</strong>
+            <span class="amount">
+                <h4>CHF 139.00</h4>
+                <p>Bargeld</p>
             </span>
         </div>
     </div>
-    <div class="island transaction">
+    <div class="island transaction plus">
         <span class="icon">
             <img src="Images/cafe.svg" alt="Restaurant"/>
         </span>
         <div>
             <span>
                 <h4>Restaurant</h4>
-                <strong>7 Dezember 2023</strong>
+                <p>8 Dezember 2023</p>
             </span>
-            <span>
-                <h4>CHF65</h4>
-                <strong>Karte</strong>
+            <span class="amount">
+                <h4>CHF 65.00</h4>
+                <p>Karte</p>
             </span>
         </div>
     </div>
+    <div class="island transaction">
+        <span class="icon">
+            <img src="Images/cart.svg" alt="Migros"/>
+        </span>
+        <div>
+            <span>
+                <h4>Migros Bern</h4>
+                <p>12 Dezember 2023</p>
+            </span>
+            <span class="amount">
+                <h4>CHF 12.00</h4>
+                <p>Twint</p>
+            </span>
+        </div>
+    </div>
+</div>
+<strong class="headline">Vermögens Verlauf</strong>
+<div>
+    <MudChart 
+        ChartType="ChartType.Line" 
+        ChartSeries="@Series" 
+        XAxisLabels="@XAxisLabels" 
+        Width="100%" 
+        Height="480px" 
+        ChartOptions="@Options"
+    />
 </div>
 
 @code {
     [CascadingParameter]
     public MainLayout? Layout { get; set; }
+    
+    public ChartOptions Options = new ChartOptions();
+    
+    public List<ChartSeries> Series = new List<ChartSeries>() {
+        new ChartSeries() { Name = "Kreditkarte", Data = new double[] { 2, 34, 56, 23, 56, 62, 80, 32, 123, 75, 203 } }
+    };
+    
+    public string[] XAxisLabels = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Nov", "Dez"};
 
     protected override void OnInitialized() {
-        if (Layout != null) {
-            Layout.Title = "Transaktionen";
-        }
+        Layout.Title = "Transaktionen";
+        Options.LineStrokeWidth = 5;
     }
 }

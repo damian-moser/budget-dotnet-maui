@@ -64,7 +64,7 @@
         </div>
         <form>
             <div class="input-group mb-3">
-                <input type="number" min="0" max="9999999999999999" inputmode="numeric" class="form-control" placeholder="Kartennummer" required="required">
+                <input type="number" min="1111111111111111" max="9999999999999999" inputmode="numeric" class="form-control" placeholder="Kartennummer" required="required">
             </div>
             
             <div class="input-group mb-3">
@@ -105,8 +105,6 @@
     public MainLayout? Layout { get; set; }
 
     protected override void OnInitialized() {
-        if (Layout != null) {
-            Layout.Title = "Karten";
-        }
+        Layout.Title = "Karten";
     }
 }
