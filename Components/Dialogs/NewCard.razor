@@ -1,0 +1,28 @@
+﻿@using MudBlazor
+
+<MudDialog>
+    <DialogContent>
+        <MudForm @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
+            <MudTextField T="string" Label="Kartennummer" Required="true" RequiredError="Die Kartennummer ist notwendig!"/>
+            <MudDatePicker Label="Ablaufdatum" Required="true" RequiredError="Das Ablaufdatum ist notwendig!"/>
+            <MudTextField T="string" Label="Prüfziffer" Required="true" RequiredError="Die Prüfziffer ist notwendig!"/>
+        </MudForm>
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel">Abbrechen</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Warning" DisableElevation="true" OnClick="@(() => { form.Validate(); CloseDialog(); })">Speichern</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter] MudDialogInstance MudDialog { get; set; }
+    void Cancel() => MudDialog.Cancel();
+    
+    bool success;
+    string[] errors = {};
+    MudForm form;
+    
+    void CloseDialog() {
+        if (success) MudDialog.Close(DialogResult.Ok(true));
+    }
+}
