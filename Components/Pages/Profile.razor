@@ -1,36 +1,44 @@
 @page "/profile"
 @using budget.Components.Layout
-<div class="island-group">
-    
-<div class="island profile">
-    <img draggable="false" src="Images/pinguin.png" alt="Profil Bild" />
-    <h2>Damian Moser</h2>
-    <strong>damian.<wbr/>moser</strong>
-</div>
-<div class="island profile-information">
-    <h3>Information</h3>
-    <table>
-        <tr>
-            <th>E-Mail</th>
-            <td>dmo1407<wbr/>48@stud<wbr/>.gibb.ch</td>
-        </tr>
-        <tr>
-            <th>Tel</th>
-            <td>079 810 73 96</td>
-        </tr>
-    </table>
-</div>
-<div class="island settings">
-    <h3>Settings</h3>
-    <div class="setting">
-        <strong>Darkmode</strong>
-        <label class="switch">
-            <input type="checkbox">
-            <span class="slider round"></span>
-        </label>
+@using MudBlazor
+
+<div>
+    <div class="island profile">
+        <img draggable="false" src="Images/pinguin.png" alt="Profil Bild" />
+        <h2>Damian Moser</h2>
+        <strong>damian.moser</strong>
     </div>
-    <hr/>
-</div>
+    <div class="island profile-information">
+        <h3>Information</h3>
+        <table>
+            <tr>
+                <th>E-Mail</th>
+                <td>dmo140748@stud.gibb.ch</td>
+            </tr>
+            <tr>
+                <th>Tel</th>
+                <td>079 810 73 96</td>
+            </tr>
+        </table>
+    </div>
+    <div class="island settings">
+        <h3>Settings</h3>
+        <div class="setting">
+            <strong>Darkmode</strong>
+            <MudSwitch @bind-Value="@DarkMode" Color="Color.Warning" />
+        </div>
+        <hr/>
+        <div class="setting">
+            <strong>Anmelden mit Fingerabdruck</strong>
+            <MudSwitch @bind-Value="@FingerPrint" Color="Color.Warning" />
+        </div>
+        <hr/>
+        <div class="setting">
+            <strong>Benachrichtungen</strong>
+            <MudSwitch @bind-Value="@News" Color="Color.Warning" />
+        </div>
+        <hr/>
+    </div>
 </div>
 
 @code {
@@ -40,4 +48,8 @@
     protected override void OnInitialized() {
         Layout.Title = "Profil";
     }
+    
+    public bool DarkMode { get; set; } = true;
+    public bool FingerPrint { get; set; } = false;
+    public bool News { get; set; } = true;
 }

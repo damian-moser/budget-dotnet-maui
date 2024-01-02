@@ -56,8 +56,9 @@
         ChartSeries="@Series" 
         XAxisLabels="@XAxisLabels" 
         Width="100%" 
-        Height="480px" 
+        Height="100%" 
         ChartOptions="@Options"
+        Class="white-text"
     />
 </div>
 
@@ -68,7 +69,8 @@
     public ChartOptions Options = new ChartOptions();
     
     public List<ChartSeries> Series = new List<ChartSeries>() {
-        new ChartSeries() { Name = "Kreditkarte", Data = new double[] { 2, 34, 56, 23, 56, 62, 80, 32, 123, 75, 203 } }
+        new ChartSeries() { Name = "Kreditkarte", Data = new double[] { 3567, 2789, 1932, 3551, 5623, 1662, 4562, 3242, 6522, 5621, 6326.45 } },
+        new ChartSeries() { Name = "Bargeld", Data = new double[] { 50, 135, 422, 351, 343, 66, 128, 324, 123, 187, 254.20 } }
     };
     
     public string[] XAxisLabels = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Nov", "Dez"};
