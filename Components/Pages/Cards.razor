@@ -11,21 +11,19 @@
 
 <div class="island-group">
     <div @ref="_card" id="card" class="island">
-        <div>
-            <p>Vermögen</p>
-            <h2>CHF 6,325.45</h2>
-            <div class="d-flex gap-2">
-                <MudButton @onclick="EditCard" DisableElevation="true" Variant="Variant.Filled" Color="Color.Warning">
-                    <MudIcon Icon="@Icons.Material.Filled.Edit" />
-                </MudButton>
-                <MudButton @onclick="RemoveCard" DisableElevation="true" Variant="Variant.Filled" Color="Color.Error">
-                    <MudIcon Icon="@Icons.Material.Filled.Delete" />
-                </MudButton>
-            </div>
+        <strong>Vermögen</strong>
+        <h2>CHF 6,325.45</h2>
+        <div class="d-flex gap-2">
+            <MudButton @onclick="EditCard" DisableElevation="true" Variant="Variant.Filled" Color="Color.Warning">
+                <MudIcon Icon="@Icons.Material.Filled.Edit" />
+            </MudButton>
+            <MudButton @onclick="RemoveCard" DisableElevation="true" Variant="Variant.Filled" Color="Color.Error">
+                <MudIcon Icon="@Icons.Material.Filled.Delete" />
+            </MudButton>
         </div>
     </div>
     <div @ref="_cash" id="cash" class="island">
-        <p>Bargeld</p>
+        <strong>Bargeld</strong>
         <h2>CHF 254.20</h2>
         <div class="d-flex gap-2">
             <MudButton @onclick="EditCash" DisableElevation="true" Variant="Variant.Filled" Color="Color.Warning">
