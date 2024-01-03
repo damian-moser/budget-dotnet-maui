@@ -8,3 +8,21 @@
         margin: 0;
         flex: 1;
     }
+
+.bilanz {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bilanz-image {
+    padding: 10px;
+    background-color: #42887C;
+    border-radius: 999px;
+    margin-bottom: 12px;
+}
+
+.red-bilanz {
+    background-color: #836F81;
+}
