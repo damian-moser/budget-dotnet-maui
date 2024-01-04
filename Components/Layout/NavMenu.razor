@@ -15,12 +15,12 @@
 
 <script>
 	function fillNavLink(item) {
-		item.querySelector("img").src = "Images/" + item.id + "_1.svg";
+		item.querySelector("img").src = "Images/nav/" + item.id + "_1.svg";
 	}
 
 	document.querySelectorAll(".mobile-nav-item").forEach(item => {
 		item.addEventListener("click", () => {
-			document.querySelectorAll(".mobile-nav-item").forEach(item => item.querySelector("img").src = "Images/" + item.id + "_0.svg");
+			document.querySelectorAll(".mobile-nav-item").forEach(item => item.querySelector("img").src = "Images/nav/" + item.id + "_0.svg");
 			fillNavLink(item);
 		});
 	});

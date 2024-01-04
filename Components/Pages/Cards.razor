@@ -10,9 +10,11 @@
 <MudButton Style="margin-bottom: 2rem" @onclick="NewCard" Variant="Variant.Filled" Color="Color.Warning">Karte hinzufügen</MudButton>
 
 <div class="island-group">
-    <div @ref="_card" id="card" class="island">
-        <strong>Vermögen</strong>
-        <h2>CHF 6,325.45</h2>
+    <div @ref="_card" id="card" class="island d-flex flex-column justify-content-between">
+        <div>
+            <strong>Vermögen</strong>
+            <h2>CHF 6,325.45</h2>
+        </div>
         <div class="d-flex gap-2">
             <MudButton @onclick="EditCard" DisableElevation="true" Variant="Variant.Filled" Color="Color.Warning">
                 <MudIcon Icon="@Icons.Material.Filled.Edit" />
@@ -22,9 +24,11 @@
             </MudButton>
         </div>
     </div>
-    <div @ref="_cash" id="cash" class="island">
-        <strong>Bargeld</strong>
-        <h2>CHF 254.20</h2>
+    <div @ref="_cash" id="cash" class="island d-flex flex-column justify-content-between">
+        <div>
+            <strong>Bargeld</strong>
+            <h2>CHF 254.20</h2>
+        </div>
         <div class="d-flex gap-2">
             <MudButton @onclick="EditCash" DisableElevation="true" Variant="Variant.Filled" Color="Color.Warning">
                 <MudIcon Icon="@Icons.Material.Filled.Edit" />
