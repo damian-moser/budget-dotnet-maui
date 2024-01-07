@@ -1,15 +1,15 @@
 ﻿<nav>
-	<a id="home" href="/" class="mobile-nav-item active-mobile-item" title="Home" draggable="false">
-		<img draggable="false" alt="Home" src="Images/home_0.svg" />
+	<a id="home" href="/home" class="mobile-nav-item active-mobile-item" title="Home" draggable="false">
+		<img draggable="false" alt="Home" src="Images/nav/home_0.svg" />
 	</a>
 	<a id="history" href="history" class="mobile-nav-item" title="Verlauf" draggable="false">
-		<img draggable="false" alt="Verlauf" src="Images/history_0.svg" />
+		<img draggable="false" alt="Verlauf" src="Images/nav/history_0.svg" />
 	</a>
 	<a id="cards" href="cards" class="mobile-nav-item" title="Karten" draggable="false">
-		<img draggable="false" alt="Karten" src="Images/cards_0.svg" />
+		<img draggable="false" alt="Karten" src="Images/nav/cards_0.svg" />
 	</a>
 	<a id="profile" href="profile" class="mobile-nav-item" title="Profil" draggable="false">
-		<img draggable="false" alt="Profile" src="Images/profile_0.svg" />
+		<img draggable="false" alt="Profile" src="Images/nav/profile_0.svg" />
 	</a>
 </nav>
 
@@ -24,4 +24,6 @@
 			fillNavLink(item);
 		});
 	});
+
+	fillNavLink(document.querySelector("#home"));
 </script>
