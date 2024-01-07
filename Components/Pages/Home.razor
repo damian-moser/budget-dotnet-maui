@@ -2,6 +2,8 @@
 @using budget.Components.Layout
 @using MudBlazor
 
+<script src="Scripts/main.js" defer></script>
+
 <MudCarousel Class="mud-width-full" Style="height: 200px; border-radius: var(--border-radius);" ShowArrows="true" ShowBullets="false" EnableSwipeGesture="true" AutoCycle="true" TData="object">
     <MudCarouselItem Transition="Transition.Slide" Color="Color.Primary">
         <div class="d-flex" style="height: 100%">
@@ -68,6 +70,8 @@
     public MainLayout? Layout { get; set; }
 
     protected override void OnInitialized() {
-        Layout.Title = "Dashboard";
+        if (Layout != null) {
+            Layout.Title = "Dashboard";
+        }
     }
 }

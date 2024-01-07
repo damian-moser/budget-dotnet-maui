@@ -9,7 +9,7 @@
         </span>
         <div>
             <span>
-                <h5>H&M Thun</h5>
+                <h5>New Yorker Thun</h5>
                 <p>10 Dezember 2023</p>
             </span>
             <span class="amount">
@@ -49,7 +49,7 @@
         </div>
     </div>
 </div>
-<strong class="headline">Vermögens Verlauf</strong>
+<strong id="bilanz" class="headline">Erweiterte Bilanz</strong>
 <div>
     <MudChart 
         ChartType="ChartType.Bar" 
@@ -69,14 +69,16 @@
     public ChartOptions Options = new ChartOptions();
     
     public List<ChartSeries> Series = new List<ChartSeries>() {
-        new ChartSeries() { Name = "Kreditkarte", Data = new double[] { 3567, 2789, 1932, 3551, 5623, 1662, 4562, 3242, 6522, 5621, 6326.45 } },
-        new ChartSeries() { Name = "Bargeld", Data = new double[] { 50, 135, 422, 351, 343, 66, 128, 324, 123, 187, 254.20 } }
+        new ChartSeries() { Name = "Einnahmen", Data = new double[] { 892, 893, 802, 861, 864, 889, 851, 846, 815, 809, 871 } },
+        new ChartSeries() { Name = "Ausgaben", Data = new double[] { 497, 863, 735, 645, 486, 647, 497, 675, 529, 836, 612 } }
     };
     
     public string[] XAxisLabels = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Nov", "Dez"};
 
     protected override void OnInitialized() {
-        Layout.Title = "Transaktionen";
+        if (Layout != null) {
+            Layout.Title = "Transaktionen";
+        }
         Options.LineStrokeWidth = 5;
     }
 }

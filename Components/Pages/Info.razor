@@ -1,0 +1,16 @@
+@page "/info"
+@using budget.Components.Layout
+@using MudBlazor
+
+<MudButton Variant="Variant.Filled" Color="Color.Warning" Href="javascript:window.history.back();">zurück</MudButton>
+
+@code {
+    [CascadingParameter]
+    public MainLayout? Layout { get; set; }
+
+    protected override void OnInitialized() {
+        if (Layout != null) {
+            Layout.Title = "Informationen";
+        }
+    }
+}

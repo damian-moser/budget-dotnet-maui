@@ -38,6 +38,7 @@
             <MudSwitch @bind-Value="@News" Color="Color.Warning" />
         </div>
         <hr/>
+        <a href="/info"><strong>Info</strong></a>
     </div>
 </div>
 
@@ -46,7 +47,9 @@
     public MainLayout? Layout { get; set; }
 
     protected override void OnInitialized() {
-        Layout.Title = "Profil";
+        if (Layout != null) {
+            Layout.Title = "Profil";
+        }
     }
     
     public bool DarkMode { get; set; } = true;
