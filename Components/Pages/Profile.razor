@@ -38,7 +38,13 @@
             <MudSwitch @bind-Value="@News" Color="Color.Warning" />
         </div>
         <hr/>
-        <a href="/info"><strong>Info</strong></a>
+        <MudButton Class="info" Href="/info">
+            <strong>App Info</strong>
+        </MudButton>
+        <hr/>
+        <MudButton Class="info" Href="/faq">
+            <strong>Hilfebereich</strong>
+        </MudButton>
     </div>
 </div>
 
@@ -53,6 +59,6 @@
     }
     
     public bool DarkMode { get; set; } = true;
-    public bool FingerPrint { get; set; } = false;
+    public bool FingerPrint { get; set; }
     public bool News { get; set; } = true;
 }

@@ -1,0 +1,48 @@
+﻿@page "/faq"
+@using budget.Components.Layout
+@using MudBlazor
+
+<MudButton Variant="Variant.Filled" Color="Color.Warning" Href="javascript:window.history.back();">zurück</MudButton>
+
+<div class="island">
+    <MudButton Class="info" OnClick="Einnahmen">Wie kann CashControl mir helfen, meine monatlichen Einnahmen effizient zu erfassen?</MudButton>
+    <MudCollapse Expanded="_einnahmen">CashControl erleichtert die Erfassung von monatlichen Einnahmen. Gehen Sie zur Registerkarte "Karten" und fügen Sie Ihre Gehälter, Nebeneinkünfte oder andere Einnahmequellen hinzu. Die App ermöglicht eine detaillierte Aufschlüsselung, wodurch Sie einen klaren Überblick über Ihre finanzielle Situation erhalten.</MudCollapse>
+     <hr />
+    <MudButton Class="info" OnClick="Karten">Kann ich mehrere Karten in CashControl verwalten?</MudButton>
+    <MudCollapse Expanded="_karten">Ja, CashControl ermöglicht die Verwaltung mehrerer Kreditkarten. Sie können so viele Karten hinzufügen, wie Sie benötigen, um eine umfassende Übersicht über Ihre finanziellen Transaktionen zu erhalten. Die App organisiert die Informationen übersichtlich, sodass Sie die Ausgaben auf verschiedenen Karten leicht nachverfolgen können.</MudCollapse>
+     <hr />
+    <MudButton Class="info" OnClick="Karte">Wie kann ich eine neue Einnahmequelle, wie zum Beispiel eine neue Kreditkarte, in CashControl hinzufügen?</MudButton>
+    <MudCollapse Expanded="_karte">Um eine neue Kreditkarte hinzuzufügen, öffnen Sie die CashControl-App und gehen Sie zum Abschnitt "Karten". Wählen Sie die Option "Karte hinzufügen" und geben Sie die erforderlichen Informationen ein. Speichern Sie die Änderungen, und die neue Karte wird in Ihrem CashControl-Konto erscheinen. Beachten Sie, dass Sie auch bestehende Kreditkarten bearbeiten oder löschen können, falls sich Ihre Finanzsituation ändert.</MudCollapse>
+     <hr />
+    <MudButton Class="info" OnClick="Benachrichtigungen">Erhalte ich Benachrichtigungen über Ausgaben auf meinen Kreditkarten?</MudButton>
+    <MudCollapse Expanded="_benachrichtigungen">Ja, CashControl bietet die Möglichkeit, Benachrichtigungen für Ausgaben auf Ihren Kreditkarten zu aktivieren. Gehen Sie zu den "Benachrichtigungseinstellungen" und wählen Sie die gewünschten Karten aus. Sie erhalten dann Warnungen, wenn bestimmte Ausgabenlimits erreicht oder überschritten werden, um Ihnen eine bessere Kontrolle über Ihre Finanzen zu ermöglichen.</MudCollapse>
+    <hr />
+    <MudButton Class="info" OnClick="Sicherheit">Wie sicher sind meine Kreditkarteninformationen in CashControl?</MudButton>
+    <MudCollapse Expanded="_sicherheit">Die Sicherheit Ihrer finanziellen Informationen ist von höchster Bedeutung. CashControl verwendet moderne Verschlüsselungstechnologien, um sicherzustellen, dass Ihre Kreditkarteninformationen geschützt sind. Beachten Sie jedoch, dass der Zugriff auf Ihr CashControl-Konto nur mit Ihren persönlichen Anmeldedaten möglich ist, und schützen Sie diese Informationen stets vertraulich.</MudCollapse>
+</div>
+
+@code {
+    [CascadingParameter]
+    public MainLayout? Layout { get; set; }
+
+    protected override void OnInitialized() {
+        if (Layout != null) {
+            Layout.Title = "FAQ";
+        }
+    }
+    
+    bool _einnahmen;
+    private void Einnahmen() { _einnahmen = !_einnahmen; }
+    
+    bool _karten;
+    private void Karten() { _karten = !_karten; }
+    
+    bool _karte;
+    private void Karte() { _karte = !_karte; }
+    
+    bool _benachrichtigungen;
+    private void Benachrichtigungen() { _benachrichtigungen = !_benachrichtigungen; }
+    
+    bool _sicherheit;
+    private void Sicherheit() { _sicherheit = !_sicherheit; }
+}

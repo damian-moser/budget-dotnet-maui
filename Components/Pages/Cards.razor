@@ -7,8 +7,10 @@
 
 <script src="Scripts/main.js" defer></script>
 
-<MudButton Style="margin-bottom: 2rem" @onclick="NewCard" Variant="Variant.Filled" Color="Color.Warning">Karte hinzufügen</MudButton>
-
+<div style="margin-bottom: 2rem;">
+    <MudButton @onclick="NewCard" Variant="Variant.Filled" Color="Color.Warning">Karte hinzufügen</MudButton>
+    <MudButton @onclick="NewEinkommen" Variant="Variant.Filled" Color="Color.Warning">Einkommen hinzufügen</MudButton>
+</div>
 <div class="island-group">
     <div @ref="_card" id="card" class="island d-flex flex-column justify-content-between">
         <div>
@@ -38,6 +40,20 @@
             </MudButton>
         </div>
     </div>
+    <div @ref="_einkommen" id="einkommen" class="island d-flex flex-column justify-content-between">
+        <div>
+            <strong>Einkommen</strong>
+            <h2>CHF 425.00</h2>
+        </div>
+        <div class="d-flex gap-2">
+            <MudButton @onclick="EditEinkommen" DisableElevation="true" Variant="Variant.Filled" Color="Color.Warning">
+                <MudIcon Icon="@Icons.Material.Filled.Edit" />
+            </MudButton>
+            <MudButton @onclick="RemoveEinkommen" DisableElevation="true" Variant="Variant.Filled" Color="Color.Error">
+                <MudIcon Icon="@Icons.Material.Filled.Delete" />
+            </MudButton>
+        </div>
+    </div>
 </div>
 
 @code {
@@ -53,6 +69,14 @@
         CloseOnEscapeKey = true,
         DisableBackdropClick = true
     };
+
+    private void NewEinkommen() {
+        DialogService.Show<NewEinkommen>("Neues Einkommen hinzufügen", _options);
+    }
+    
+    private void EditEinkommen() {
+        DialogService.Show<EditEinkommen>("Einkommen bearbeiten", _options);
+    }
 
     private void NewCard() {
         DialogService.Show<NewCard>("Neue Karte hinzufügen", _options);
@@ -74,5 +98,10 @@
     ElementReference _card;
     private async void RemoveCard() {
         await JsRuntime.InvokeVoidAsync("removeElement", _card);
+    }
+
+    ElementReference _einkommen;
+    private async void RemoveEinkommen() {
+        await JsRuntime.InvokeVoidAsync("removeElement", _einkommen);
     }
 }
